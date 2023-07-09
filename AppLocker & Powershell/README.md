@@ -1,4 +1,6 @@
-See https://www.42dude.com/blog/2023/07/09/block-office-apps-using-powershell-and-applocker/ for more info
+See https://www.42dude.com/blog/2023/07/09/block-office-apps-using-powershell-and-applocker/ for more info.
+
+These 2 powershell scripts are for enabling AppLocker using PowerShell on Windows 10+ Machines :)
 
 1: Apply the powershell script "Enable-Applocker.ps1" at LOGON for the targetted users and run as SYSTEM
 
