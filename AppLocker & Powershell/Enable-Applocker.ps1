@@ -25,7 +25,7 @@ Add-Type -AssemblyName System.Web
 #This is example Rule Collection for EXE, you should change this to your own settings
 $obj = [System.Net.WebUtility]::HtmlEncode(@"
 <RuleCollection Type="Exe" EnforcementMode="NotConfigured">
-<FilePathRule Id="fd686d83-a829-4351-8ff4-27c7de5755d2" Name="(ADMIN) All files allowed" Description="Users of the Local Administrator group still have unrestructed access." UserOrGroupSid="S-1-5-32-544" Action="Allow">
+<FilePathRule Id="fd686d83-a829-4351-8ff4-27c7de5755d2" Name="(ADMIN) All files allowed" Description="Users of the Local Administrator group still have unrestricted access." UserOrGroupSid="S-1-5-32-544" Action="Allow">
 <Conditions>
 <FilePathCondition Path="*" />
 </Conditions>
